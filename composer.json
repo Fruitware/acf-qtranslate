@@ -1,5 +1,5 @@
 {
-  "name": "fruitware/wp-plugin-acf-qtranslate",
+  "name": "wp-plugin/acf-qtranslate",
   "type": "wordpress-plugin",
   "license": "MIT",
   "description" : "Adds qTranslate compatible fields for Text, Text Area, Wysiwyg Editor and Image.",
@@ -10,13 +10,10 @@
     "qtranslate"
   ],
   "homepage": "https://github.com/Fruitware/acf-qtranslate",
-  "authors": [
-    {
-      "name": "fruitware"
-    }
-  ],
   "require": {
     "php": ">=5.3.3",
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
 
